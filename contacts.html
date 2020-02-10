@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="shadow-sm rounded">
+        <img src="https://image.freepik.com/free-photo/abstract-yellow-brush-stroke-white-background_23-2147835995.jpg" alt="Logo" width="200" class="mx-auto d-block">
+      </div>
+    </header>
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="./contacts.html">Contact me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./post1.html">Post 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./post2.html">Post 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./post3.html">Post 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+    </nav>
+    <main class="pt-3">
+      <div class="container">
+        <div class="row">
+          <!-- Карта -->
+          <div class="col-md-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.4022829748164!2d37.71825281515388!3d48.5255218320409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dfc40557908331%3A0x513060aaf4639657!2z0LLRg9C70LjRhtGPINCd0LXQt9Cw0LvQtdC20L3QvtGB0YLRliwgMTQ2LCDQmtC-0YHRgtGP0L3RgtC40L3RltCy0LrQsCwg0JTQvtC90LXRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgODUxMDU!5e0!3m2!1sru!2sua!4v1580991072317!5m2!1sru!2sua" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <!-- Контактная форма -->
+          <div class="col-md-7">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">First Name</label>
+                  <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Second Name</label>
+                  <input type="text" class="form-control" id="inputPassword4">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Email</label>
+                <input type="email" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <textarea name="message" rows="8" cols="80"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary"
+              data-toggle="modal" data-target="#exampleModal">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="border-top">
+      <div class="container">
+        <div class="row py-3 text-dark">
+          <!--Колонка 1-->
+          <div class="col-md-4">
+            <img src="https://image.freepik.com/free-photo/abstract-yellow-brush-stroke-white-background_23-2147835995.jpg" alt="Logo" width="200">
+          </div>
+          <!--Колонка 2-->
+          <div class="col-md-4">
+            <h1>About me</h1>
+            <h5>Alina Akulova</h5>
+            <p>Я живу в городе Константиновка . Это Донецкая область . Я учусь в школе №2,в восьмом классе . Мне 13 лет . Моё любимое хобби - это танцы . Я родилась 20 апреля 2006 года . Больше обо мне вы узнаете прочитав этот блог . Этот блог был создан 4 февраля 2020 года!</p>
+          </div>
+          <!--Колонка 3-->
+          <div class="col-md-4">
+            <h2 class="text-center">Contact me</h2>
+            <p>If you want to contact me send an email to
+            <a href="mailto:alinaakulova06@gmail.com?subject=feedback">email me</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabinex="-1" role="dialog"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Oops...</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Sorry...you didn’t finish something)
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
